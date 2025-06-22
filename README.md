@@ -1,6 +1,6 @@
-# 🎓 Class 1–10 Student Tutor Chatbot (FastAPI + OpenRouter)
+# 🎓 Class 1–12 Student Tutor Chatbot (FastAPI + OpenRouter)
 
-This is a FastAPI-based intelligent chatbot that acts as a virtual tutor for students from **Class 1 to Class 10**. It utilizes **free instruction-following LLMs** provided by **OpenRouter** (like Mistral-7B-Instruct or DeepSeek LLaMA 70B) to deliver clear, helpful answers in markdown format. The chatbot maintains **in-memory chat sessions** and is deployed on **Render.com**.
+This is a FastAPI-based intelligent chatbot that acts as a virtual tutor for students from **Class 1 to Class 12**. It utilizes **free instruction-following LLMs** provided by **OpenRouter** (like Mistral-7B-Instruct or DeepSeek LLaMA 70B) to deliver clear, helpful answers in markdown format. The chatbot maintains **in-memory chat sessions** and is deployed on **Render.com**.
 
 ---
 
@@ -9,7 +9,7 @@ This is a FastAPI-based intelligent chatbot that acts as a virtual tutor for stu
 🔗 **API Base URL**: `https://chatbot-1-np4y.onrender.com/`  
 📘 **Swagger UI**: `https://chatbot-1-np4y.onrender.com/docs`  
 
-> Replace the above URLs with your actual Render deployment link after deployment.
+
 
 ---
 
@@ -52,9 +52,11 @@ OPENROUTER_API_KEY=your_api_key
 ##### Follow the steps below to run the chatbot locally.
 
 ##### ✅ 1. Clone the Repository
-
+```
 git clone https://github.com/yourusername/student-tutor-chatbot.git
 cd student-tutor-chatbot
+```
+
 ##### ✅ 2. Create a Virtual Environment
 
 ```
